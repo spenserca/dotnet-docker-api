@@ -14,7 +14,9 @@ Example of a dotnet core API running in a docker container.
 - Run the docker image as a container with `docker run --name docker-api-container -p 8080:80 docker-api-image`
 - Once the container is running you can hit the endpoint with `curl http://localhost:8080/WeatherController`
 
-- Build the SQL server image by running `docker build -t docker-sql-iamge -f sql/Dockerfile .`
+- Build the dacpac with visual studio (TODO: build from the command line)
+
+- Build the SQL server image by running `docker build -t dockerdb-image -f sql/Dockerfile .`
 - Start the SQL server
   with `docker run --name docker-sql-container -h docker-sql-container -e "SA_PASSWORD=<password>" -p 1433:1433 -d docker-sql-image`
 
