@@ -61,4 +61,7 @@
   <ItemGroup>
     <Build Include="dbo\Log.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Dockerfile" />
+  </ItemGroup>
 </Project>

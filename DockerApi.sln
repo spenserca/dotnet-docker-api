@@ -7,9 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerApi", "DockerApi\Dock
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{78B3EBBD-7494-464F-A086-0D43F79E77F6}"
 	ProjectSection(SolutionItems) = preProject
-		sql\Dockerfile = sql\Dockerfile
-		README.md = README.md
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DockerDb", "DockerDb\DockerDb.sqlproj", "{DBCB65F4-C13B-4AE9-9129-C573448804F7}"
